@@ -1,0 +1,73 @@
+[0.145s] Invoking command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/burak/arduinobot_ws2/src/arduino_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/burak/arduinobot_ws2/install/arduinobot_cpp_examples
+[0.313s] -- The C compiler identification is GNU 13.3.0
+[1.396s] -- The CXX compiler identification is GNU 13.3.0
+[1.892s] -- Detecting C compiler ABI info
+[2.125s] -- Detecting C compiler ABI info - done
+[2.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.134s] -- Detecting C compile features
+[2.134s] -- Detecting C compile features - done
+[2.196s] -- Detecting CXX compiler ABI info
+[2.419s] -- Detecting CXX compiler ABI info - done
+[2.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.428s] -- Detecting CXX compile features
+[2.428s] -- Detecting CXX compile features - done
+[2.433s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.574s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.703s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.888s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.904s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.043s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.047s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.131s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.281s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.362s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.547s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.561s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.662s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.663s] -- Configured cppcheck include dirs: 
+[3.663s] -- Configured cppcheck exclude dirs and/or files: 
+[3.663s] -- Added test 'lint_cmake' to check CMake code style
+[3.664s] -- Added test 'uncrustify' to check C / C++ code style
+[3.664s] -- Configured uncrustify additional arguments: 
+[3.665s] -- Added test 'xmllint' to check XML markup files
+[3.666s] -- Configuring done (3.5s)
+[3.681s] -- Generating done (0.0s)
+[3.687s] -- Build files have been written to: /home/burak/arduinobot_ws2/build/arduinobot_cpp_examples
+[3.696s] Invoked command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/burak/arduinobot_ws2/src/arduino_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/burak/arduinobot_ws2/install/arduinobot_cpp_examples
+[3.697s] Invoking command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/burak/arduinobot_ws2/build/arduinobot_cpp_examples -- -j20 -l20
+[3.737s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[3.737s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[3.737s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[6.947s] [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[7.237s] [ 66%] Built target simple_parameter
+[7.971s] [ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[8.594s] [ 83%] Built target simple_publisher
+[10.176s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[10.376s] [100%] Built target simple_subscriber
+[10.382s] Invoked command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/burak/arduinobot_ws2/build/arduinobot_cpp_examples -- -j20 -l20
+[10.383s] Invoking command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/burak/arduinobot_ws2/build/arduinobot_cpp_examples
+[10.387s] -- Install configuration: ""
+[10.388s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[10.389s] -- Set non-toolchain portion of runtime path of "/home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""
+[10.389s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[10.391s] -- Set non-toolchain portion of runtime path of "/home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""
+[10.391s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[10.392s] -- Set non-toolchain portion of runtime path of "/home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter" to ""
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[10.392s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[10.393s] -- Installing: /home/burak/arduinobot_ws2/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[10.394s] Invoked command in '/home/burak/arduinobot_ws2/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/burak/arduinobot_ws2/build/arduinobot_cpp_examples

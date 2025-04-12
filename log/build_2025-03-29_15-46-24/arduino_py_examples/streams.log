@@ -1,0 +1,32 @@
+[0.669s] Invoking command in '/home/burak/arduinobot_ws2/src/arduino_py_examples': PYTHONPATH=/home/burak/arduinobot_ws2/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/burak/arduinobot_ws2/build/arduino_py_examples/build install --record /home/burak/arduinobot_ws2/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[0.828s] running egg_info
+[0.829s] creating ../../build/arduino_py_examples/arduino_py_examples.egg-info
+[0.842s] writing ../../build/arduino_py_examples/arduino_py_examples.egg-info/PKG-INFO
+[0.842s] writing dependency_links to ../../build/arduino_py_examples/arduino_py_examples.egg-info/dependency_links.txt
+[0.842s] writing requirements to ../../build/arduino_py_examples/arduino_py_examples.egg-info/requires.txt
+[0.842s] writing top-level names to ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
+[0.842s] writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[0.864s] reading manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] creating /home/burak/arduinobot_ws2/build/arduino_py_examples/build
+[0.865s] creating /home/burak/arduinobot_ws2/build/arduino_py_examples/build/lib
+[0.865s] creating /home/burak/arduinobot_ws2/build/arduino_py_examples/build/lib/arduino_py_examples
+[0.866s] copying arduino_py_examples/__init__.py -> /home/burak/arduinobot_ws2/build/arduino_py_examples/build/lib/arduino_py_examples
+[0.866s] running install
+[0.869s] running install_lib
+[0.880s] creating /home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples
+[0.881s] copying /home/burak/arduinobot_ws2/build/arduino_py_examples/build/lib/arduino_py_examples/__init__.py -> /home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples
+[0.881s] byte-compiling /home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples/__init__.py to __init__.cpython-312.pyc
+[0.881s] running install_data
+[0.881s] creating /home/burak/arduinobot_ws2/install/arduino_py_examples/share/ament_index
+[0.881s] creating /home/burak/arduinobot_ws2/install/arduino_py_examples/share/ament_index/resource_index
+[0.882s] creating /home/burak/arduinobot_ws2/install/arduino_py_examples/share/ament_index/resource_index/packages
+[0.882s] copying resource/arduino_py_examples -> /home/burak/arduinobot_ws2/install/arduino_py_examples/share/ament_index/resource_index/packages
+[0.882s] copying package.xml -> /home/burak/arduinobot_ws2/install/arduino_py_examples/share/arduino_py_examples
+[0.882s] running install_egg_info
+[0.893s] Copying ../../build/arduino_py_examples/arduino_py_examples.egg-info to /home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info
+[0.894s] running install_scripts
+[0.970s] writing list of installed files to '/home/burak/arduinobot_ws2/build/arduino_py_examples/install.log'
+[0.989s] Invoked command in '/home/burak/arduinobot_ws2/src/arduino_py_examples' returned '0': PYTHONPATH=/home/burak/arduinobot_ws2/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burak/arduinobot_ws2/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/burak/arduinobot_ws2/build/arduino_py_examples/build install --record /home/burak/arduinobot_ws2/build/arduino_py_examples/install.log --single-version-externally-managed install_data
