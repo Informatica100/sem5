@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>servo_control</name>
+  <version>0.1.0</version>
+  <description>ROS 2 node for controlling two Arduino-connected servos via topic</description>
+  <maintainer email="jij@voorbeeld.com">Jouw Naam</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

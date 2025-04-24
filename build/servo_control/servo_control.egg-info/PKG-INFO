@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: servo-control
+Version: 0.1.0
+Summary: A simple ROS 2 node to control servos via Arduino
+Maintainer: jouw naam
+Maintainer-email: jij@voorbeeld.com
+License: MIT

@@ -1,0 +1,39 @@
+[0.486s] Invoking command in '/home/burak/servo_control': PYTHONPATH=/home/burak/servo_control/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burak/servo_control/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/servo_control build --build-base /home/burak/servo_control/build/servo_control/build install --record /home/burak/servo_control/build/servo_control/install.log --single-version-externally-managed install_data
+[0.646s] running egg_info
+[0.646s] creating build/servo_control/servo_control.egg-info
+[0.657s] writing build/servo_control/servo_control.egg-info/PKG-INFO
+[0.657s] writing dependency_links to build/servo_control/servo_control.egg-info/dependency_links.txt
+[0.657s] writing entry points to build/servo_control/servo_control.egg-info/entry_points.txt
+[0.657s] writing requirements to build/servo_control/servo_control.egg-info/requires.txt
+[0.657s] writing top-level names to build/servo_control/servo_control.egg-info/top_level.txt
+[0.657s] writing manifest file 'build/servo_control/servo_control.egg-info/SOURCES.txt'
+[0.679s] reading manifest file 'build/servo_control/servo_control.egg-info/SOURCES.txt'
+[0.679s] writing manifest file 'build/servo_control/servo_control.egg-info/SOURCES.txt'
+[0.679s] running build
+[0.679s] running build_py
+[0.680s] creating /home/burak/servo_control/build/servo_control/build
+[0.680s] creating /home/burak/servo_control/build/servo_control/build/lib
+[0.680s] creating /home/burak/servo_control/build/servo_control/build/lib/servo_control
+[0.680s] copying servo_control/__init__.py -> /home/burak/servo_control/build/servo_control/build/lib/servo_control
+[0.680s] copying servo_control/ServoControllerNode.py -> /home/burak/servo_control/build/servo_control/build/lib/servo_control
+[0.680s] running install
+[0.684s] running install_lib
+[0.697s] creating /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control
+[0.697s] copying /home/burak/servo_control/build/servo_control/build/lib/servo_control/__init__.py -> /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control
+[0.697s] copying /home/burak/servo_control/build/servo_control/build/lib/servo_control/ServoControllerNode.py -> /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control
+[0.697s] byte-compiling /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control/__init__.py to __init__.cpython-312.pyc
+[0.698s] byte-compiling /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control/ServoControllerNode.py to ServoControllerNode.cpython-312.pyc
+[0.698s] running install_data
+[0.698s] creating /home/burak/servo_control/install/servo_control/share/ament_index
+[0.698s] creating /home/burak/servo_control/install/servo_control/share/ament_index/resource_index
+[0.698s] creating /home/burak/servo_control/install/servo_control/share/ament_index/resource_index/packages
+[0.698s] copying resource/servo_control -> /home/burak/servo_control/install/servo_control/share/ament_index/resource_index/packages
+[0.698s] copying package.xml -> /home/burak/servo_control/install/servo_control/share/servo_control
+[0.699s] creating /home/burak/servo_control/install/servo_control/share/servo_control/launch
+[0.699s] copying launch/servo_controller.launch.py -> /home/burak/servo_control/install/servo_control/share/servo_control/launch
+[0.699s] running install_egg_info
+[0.711s] Copying build/servo_control/servo_control.egg-info to /home/burak/servo_control/install/servo_control/lib/python3.12/site-packages/servo_control-0.1.0-py3.12.egg-info
+[0.712s] running install_scripts
+[0.792s] Installing servo_controller script to /home/burak/servo_control/install/servo_control/lib/servo_control
+[0.792s] writing list of installed files to '/home/burak/servo_control/build/servo_control/install.log'
+[0.808s] Invoked command in '/home/burak/servo_control' returned '0': PYTHONPATH=/home/burak/servo_control/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burak/servo_control/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/servo_control build --build-base /home/burak/servo_control/build/servo_control/build install --record /home/burak/servo_control/build/servo_control/install.log --single-version-externally-managed install_data
