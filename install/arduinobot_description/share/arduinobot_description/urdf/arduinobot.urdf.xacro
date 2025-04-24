@@ -202,6 +202,7 @@
                effort="${effort}" velocity="${velocity}"/>
     </joint>
 
+
     <joint name ="joint_5" type="revolute">
         <parent link="claw_support"/>
         <child link = "gripper_left"/>
